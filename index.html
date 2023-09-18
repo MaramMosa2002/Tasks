@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Text</title>
+    
+    <link href="style.css" rel="stylesheet">
+</head>
+  <body>
+    
+    <div class="container">
+      <header id="main-header" class="bg-warning text-white p-4 mb-3">
+          <div class="row">
+            <div class="col-md-12">
+                <h1 id="header-title">My Item 
+                  <i class="fa fa-pencil" style="float:right"></i>
+                </h1>
+            </div>   
+          </div>     
+      </header>
+        <div class="card">
+            <div class="card-body">
+                <div class="input-group mb-3">
+                    <input type="text" 
+                           class="form-control" 
+                           id="inputField" 
+                           placeholder="Enter item ...">
+                    <button type="button" class="btn btn-primary" id="addToDo">
+                      <i class="fa fa-add">Add</i></h1>
+                    </button>
+                </div>
+                <div class="to-dos" id="toDoContainer"><h6>************************************</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
